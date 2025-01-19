@@ -1,12 +1,42 @@
 import { motion } from "framer-motion";
 
 const works = [
-  { id: 1, title: "Project 1", image: "/placeholder.svg", category: "Digital Art" },
-  { id: 2, title: "Project 2", image: "/placeholder.svg", category: "Photography" },
-  { id: 3, title: "Project 3", image: "/placeholder.svg", category: "Design" },
-  { id: 4, title: "Project 4", image: "/placeholder.svg", category: "Illustration" },
-  { id: 5, title: "Project 5", image: "/placeholder.svg", category: "Digital Art" },
-  { id: 6, title: "Project 6", image: "/placeholder.svg", category: "Photography" },
+  { 
+    id: 1, 
+    title: "Digital Art Project", 
+    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b", 
+    category: "Digital Art" 
+  },
+  { 
+    id: 2, 
+    title: "Photography Series", 
+    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d", 
+    category: "Photography" 
+  },
+  { 
+    id: 3, 
+    title: "Design Collection", 
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158", 
+    category: "Design" 
+  },
+  { 
+    id: 4, 
+    title: "Illustration Set", 
+    image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1", 
+    category: "Illustration" 
+  },
+  { 
+    id: 5, 
+    title: "Digital Experience", 
+    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085", 
+    category: "Digital Art" 
+  },
+  { 
+    id: 6, 
+    title: "Photo Exhibition", 
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f", 
+    category: "Photography" 
+  },
 ];
 
 const WorkSection = () => {

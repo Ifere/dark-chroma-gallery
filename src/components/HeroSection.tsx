@@ -11,7 +11,7 @@ const HeroSection = () => {
           className="w-full md:w-1/2"
         >
           <img
-            src="/placeholder.svg"
+            src="https://images.unsplash.com/photo-1721322800607-8c38375eef04"
             alt="Artist Portrait"
             className="rounded-lg shadow-2xl w-full h-auto object-cover aspect-square"
             style={{ maxWidth: "600px" }}

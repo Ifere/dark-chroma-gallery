@@ -1,10 +1,26 @@
 import { motion } from "framer-motion";
 
 const brands = [
-  { id: 1, name: "Brand 1", logo: "/placeholder.svg" },
-  { id: 2, name: "Brand 2", logo: "/placeholder.svg" },
-  { id: 3, name: "Brand 3", logo: "/placeholder.svg" },
-  { id: 4, name: "Brand 4", logo: "/placeholder.svg" },
+  { 
+    id: 1, 
+    name: "Tech Brand", 
+    logo: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b" 
+  },
+  { 
+    id: 2, 
+    name: "Creative Agency", 
+    logo: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" 
+  },
+  { 
+    id: 3, 
+    name: "Design Studio", 
+    logo: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" 
+  },
+  { 
+    id: 4, 
+    name: "Digital Lab", 
+    logo: "https://images.unsplash.com/photo-1531297484001-80022131f5a1" 
+  },
 ];
 
 const BrandSection = () => {
@@ -34,7 +50,7 @@ const BrandSection = () => {
               <img
                 src={brand.logo}
                 alt={brand.name}
-                className="w-32 h-32 object-contain filter invert opacity-70 hover:opacity-100 transition-opacity duration-300"
+                className="w-32 h-32 object-cover rounded-lg filter grayscale hover:grayscale-0 transition-all duration-300"
               />
             </motion.div>
           ))}
